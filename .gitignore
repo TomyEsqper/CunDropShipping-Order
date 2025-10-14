@@ -1,0 +1,36 @@
+# .NET Core
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+[Pp]ublish/
+TestResults/
+
+# IDE - Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Docker
+.docker/
+*.pid
+docker-compose.override.yml
+
+# Environment & System
+*.env
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+*.DS_Store
+Thumbs.db
+
+# Logs & Temp
+*.log
+*.tmp
+*.bak
+

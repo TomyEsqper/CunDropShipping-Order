@@ -1,0 +1,7 @@
+﻿services:
+  cundropshipping-order:
+    image: cundropshipping-order
+    build:
+      context: .
+      dockerfile: CunDropShipping-Order/Dockerfile
+
